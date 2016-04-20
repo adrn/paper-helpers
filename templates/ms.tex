@@ -1,17 +1,7 @@
-%\documentclass{emulateapj}
+%\documentclass[numberedappendix]{emulateapj}
 \documentclass[letterpaper,12pt,preprint]{aastex}
 
-% packages
-\usepackage{amssymb,amsmath,amsbsy}
-\usepackage{booktabs}
-\usepackage[caption=false]{subfig}
-
-% commands
-\newcommand{\given}{\,|\,}
-\newcommand{\dd}{\mathrm{d}}
-\newcommand{\transpose}[1]{{#1}^{\mathsf{T}}}
-\newcommand{\inverse}[1]{{#1}^{-1}}
-\newcommand{\msun}{\mathrm{M}_\odot}
+\input{../paper-helpers/preamble.tex}
 
 \begin{document}
 
@@ -26,7 +16,8 @@
                       Columbia University,
                       550 W 120th St.,
                       New York, NY 10027, USA}
-\altaffiltext{\adrn}{To whom correspondence should be addressed: adrn@astro.columbia.edu}
+\altaffiltext{\adrn}{To whom correspondence should be addressed:
+adrn@astro.columbia.edu}
 
 \begin{abstract}
 % Context
@@ -41,7 +32,15 @@
 \end{abstract}
 
 \keywords{
-
+  Galaxy: halo
+  ---
+  globular clusters: general
+  ---
+  stars: kinematics and dynamics
+  ---
+  Galaxy: structure
+  ---
+  Galaxy: kinematics and dynamics
 }
 
 \section{Introduction}\label{sec:introduction}
@@ -49,10 +48,13 @@
 \section{Conclusions}\label{sec:conclusions}
 
 \acknowledgements
-APW is supported by a National Science Foundation Graduate Research Fellowship under Grant No.\ 11-44155.
-This work was supported in part by the National Science Foundation under Grant No. PHYS-1066293.
-This research made use of Astropy, a community-developed core Python package for Astronomy \citep{astropy13}.
-This work additionally relied on Columbia University's \emph{Hotfoot} and \emph{Yeti} compute clusters, and we acknowledge the Columbia HPC support staff for assistance. \\
+APW is supported by a National Science Foundation Graduate Research Fellowship
+under Grant No.\ 11-44155. This work was supported in part by the National
+Science Foundation under Grant No. PHYS-1066293. This research made use of
+Astropy, a community-developed core Python package for Astronomy
+\citep{astropy13}. This work additionally relied on Columbia University's
+\emph{Hotfoot} and \emph{Yeti} compute clusters, and we acknowledge the Columbia
+HPC support staff for assistance. \\
 
 %\bibliographystyle{apj}
 %\bibliography{refs}
